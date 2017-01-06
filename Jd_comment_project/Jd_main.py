@@ -39,7 +39,7 @@ class parse:
         self.error_info = ""
         
         # 初始化productId
-        self.productId = 0
+        self.productId = "0"
 
     def pasrser(self, page, csvfile):
         # 循环置空
