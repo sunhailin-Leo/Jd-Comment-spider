@@ -12,10 +12,10 @@ import win32con
 import urllib.request as ur
 from bs4 import BeautifulSoup
 from http import cookiejar
-from csvfile_writer import *
-from logger_writer import *
-from mongodb_writer import *
-from user_agent_pool import *
+from Jd_comment_project.csvfile_writer import *
+from Jd_comment_project.logger_writer import *
+from Jd_comment_project.mongodb_writer import *
+from Jd_comment_project.user_agent_pool import *
 
 class parse:
     def __init__(self):
